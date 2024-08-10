@@ -8,9 +8,9 @@ This project is a simple admin dashboard for a social media application built wi
 
 ## Project Structure
 
-- src
-  - components: Contains reusable components like `KPICard`, `NavigationBar`, and `PostTable`.
-  - context: Contains the `LoginContext` for managing authentication state.
+- **src**
+  - **components**: Contains reusable components like `KPICard`, `NavigationBar`, and `PostTable`.
+  - **context**: Contains the `LoginContext` for managing authentication state.
   - **pages**: Contains different pages like `HomePage`, `UserListingPage`, and `PostListingPage`.
   - **data**: Contains dummy data files for users and posts.
   - **App.js**: Main application component that handles routing and authentication.
