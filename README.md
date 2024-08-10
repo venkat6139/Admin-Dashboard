@@ -25,14 +25,14 @@ User Listing Page: Lists users with actions to edit or ban each user.
 Post Listing Page: Lists posts with actions to delete or hide each post.
 
 ## Components
-LoginPage: Handles user authentication.
-HomePage: Displays KPI cards.
-UserListingPage: Shows a table of users with edit and ban functionalities.
-PostListingPage: Shows a table of posts with delete and hide functionalities.
-NavigationBar: Provides navigation links for the dashboard.
-KPICard: Displays individual KPI metrics.
-PostTable: Displays a table of posts with action buttons.
-UserTable: Displays a table of users with action buttons.
+- LoginPage: Handles user authentication.
+- HomePage: Displays KPI cards.
+- UserListingPage: Shows a table of users with edit and ban functionalities.
+- PostListingPage: Shows a table of posts with delete and hide functionalities.
+- NavigationBar: Provides navigation links for the dashboard.
+- KPICard: Displays individual KPI metrics.
+- PostTable: Displays a table of posts with action buttons.
+- UserTable: Displays a table of users with action buttons.
 
 ## Styling
 The project uses Bootstrap for layout and Material-UI for components. Custom CSS is used to enhance the styling of the login page, navigation bar, and tables.
