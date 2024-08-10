@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Admin Dashboard for Social Media Application
 
 This project is a simple admin dashboard for a social media application built with React and Material-UI. It includes functionality for managing users and posts, as well as a login system to secure access to the dashboard.
