@@ -1,0 +1,21 @@
+h1{
+  color: blue;
+}
+.postPage {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .postPage {
+    margin-left: 210px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .postPage {
+    margin-left: 0;
+    padding: 10px;
+  }
+}

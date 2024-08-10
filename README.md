@@ -2,6 +2,54 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Admin Dashboard for Social Media Application
+
+This project is a simple admin dashboard for a social media application built with React and Material-UI. It includes functionality for managing users and posts, as well as a login system to secure access to the dashboard.
+
+## Project Structure
+
+- src
+  - components: Contains reusable components like `KPICard`, `NavigationBar`, and `PostTable`.
+  - context: Contains the `LoginContext` for managing authentication state.
+  - **pages**: Contains different pages like `HomePage`, `UserListingPage`, and `PostListingPage`.
+  - **data**: Contains dummy data files for users and posts.
+  - **App.js**: Main application component that handles routing and authentication.
+  - **index.css**: Global styles for the application.
+  - **index.js**: Entry point for the React application.
+
+
+## Features
+Login Page: Simple login form that uses dummy credentials to authenticate users.
+Dashboard: Displays key performance indicators (KPIs) for total users, total posts, active users, and recent posts.
+User Listing Page: Lists users with actions to edit or ban each user.
+Post Listing Page: Lists posts with actions to delete or hide each post.
+
+## Components
+LoginPage: Handles user authentication.
+HomePage: Displays KPI cards.
+UserListingPage: Shows a table of users with edit and ban functionalities.
+PostListingPage: Shows a table of posts with delete and hide functionalities.
+NavigationBar: Provides navigation links for the dashboard.
+KPICard: Displays individual KPI metrics.
+PostTable: Displays a table of posts with action buttons.
+UserTable: Displays a table of users with action buttons.
+
+## Styling
+The project uses Bootstrap for layout and Material-UI for components. Custom CSS is used to enhance the styling of the login page, navigation bar, and tables.
+
+## Responsive Design
+The application is responsive and works well on both desktop and mobile devices. Media queries and flexible layouts ensure that the UI adapts to different screen sizes.
+
+## Data
+Dummy data for users and posts is stored in JSON files located in the data directory. This data is used to populate the tables in the user and post listing pages.
+
+## Setup
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+
+
 ## Available Scripts
 
 In the project directory, you can run:

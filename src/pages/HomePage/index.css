@@ -1,0 +1,23 @@
+.heading{
+  color: blue;
+  text-align: center;
+}
+
+.homePage {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .homePage {
+    margin-left: 210px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .homePage {
+    margin-left: 0;
+    padding: 10px;
+  }
+}
