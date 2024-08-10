@@ -19,10 +19,10 @@ This project is a simple admin dashboard for a social media application built wi
 
 
 ## Features
-Login Page: Simple login form that uses dummy credentials to authenticate users.
-Dashboard: Displays key performance indicators (KPIs) for total users, total posts, active users, and recent posts.
-User Listing Page: Lists users with actions to edit or ban each user.
-Post Listing Page: Lists posts with actions to delete or hide each post.
+- Login Page: Simple login form that uses dummy credentials to authenticate users.
+- Dashboard: Displays key performance indicators (KPIs) for total users, total posts, active users, and recent posts.
+- User Listing Page: Lists users with actions to edit or ban each user.
+- Post Listing Page: Lists posts with actions to delete or hide each post.
 
 ## Components
 - LoginPage: Handles user authentication.
